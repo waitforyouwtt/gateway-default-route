@@ -1,0 +1,17 @@
+
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:5000/eureka/
+spring:
+  application:
+    name: userinfo-service
+
+server:
+  port: 5002
+
+
